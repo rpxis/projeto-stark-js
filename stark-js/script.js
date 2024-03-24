@@ -167,6 +167,7 @@ async function selectValues() {
 
 async function searchCoin(e) {
     if (e.key === "Enter") {
+        search.value != "" ? moreCripto.style.display = 'none' : ''
         const rCoins = await reqCryptos(search.value)
         if (rCoins.data.coins.length === 0) {
             containerBodycryptos.innerHTML = "Moeda não encontrada!"
