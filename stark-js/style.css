@@ -230,6 +230,7 @@ main {
     align-items: center;
     text-align: center;
     color: white;
+    margin-bottom: 10px;
 }
 
 .container-top-two > h1 {
