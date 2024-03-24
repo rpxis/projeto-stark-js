@@ -176,6 +176,7 @@ main {
 
 .btn-back {
     cursor: pointer;
+    /* background-color: aqua; */
 }
 
 .btn-back:hover {
@@ -265,8 +266,10 @@ main {
 
 .input-one,
 .input-two {
+    display: flex;
+    flex-wrap: nowrap;
     border-bottom: 1.8px solid gray;
-    width: 19.4em;
+    width: 18em;
     height: 3em;
 }
 
@@ -276,6 +279,7 @@ main {
 .output {
     border: none;
     border-right: 1px solid gray;
+    width: 70%;
     height: 100%;
     padding: 5px;
 }
@@ -290,8 +294,7 @@ main {
 
 .input-one select,
 .input-two select {
-    max-width: 70px;
-    
+    width: 30%;
     height: 100%;
     border: 1px solid rgb(255, 255, 255);
 }
@@ -308,6 +311,7 @@ input:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+
     gap: 30px;
     margin-top: 25px;
     width: 100%;
