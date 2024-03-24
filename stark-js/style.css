@@ -268,7 +268,8 @@ main {
 .input-two {
     display: flex;
     flex-wrap: nowrap;
-    border-bottom: 1.8px solid gray;
+    border-bottom: 1.9px solid gray;
+    background-color: aqua;
     width: 18em;
     height: 3em;
 }
@@ -279,7 +280,7 @@ main {
 .output {
     border: none;
     border-right: 1px solid gray;
-    width: 70%;
+    width: 80%;
     height: 100%;
     padding: 5px;
 }
@@ -294,7 +295,7 @@ main {
 
 .input-one select,
 .input-two select {
-    width: 30%;
+    width: 20%;
     height: 100%;
     border: 1px solid rgb(255, 255, 255);
 }
