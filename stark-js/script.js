@@ -185,11 +185,8 @@ async function searchCoin(e) {
 function setInputs(conversion, input) {
     if (input == 1) {
         output.value = conversion[selectOutput.value].toFixed(2)
-
-
     }
     else {
-
         entry.value = conversion[selectEntry.value].toFixed(2)
     }
 }
