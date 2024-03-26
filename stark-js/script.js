@@ -125,7 +125,7 @@ function gerarCoins(coin) {
                                 ${coinDescription}
                          </div>
                         </div> 
-                        <div class="time">Ultima atualização: Hoje ás ${hour}:${minute}</div>  
+                        <div class="time">Ultima atualização: Hoje ás ${hour}:${minute}${hour >= 12 ? 'PM': 'AM'}</div>  
                     </div>      
                 `
 
